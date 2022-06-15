@@ -1,0 +1,35 @@
+dateModified: 1655306066
+email:
+  fromEmail: jon@hatchdsm.com
+  fromName: HatchDSM
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    10a77a66-d49d-48b6-b9f2-592393ef32d7: About # About
+    93f4b0cf-62cc-4564-8ab1-d51fa2934e14: HatchDSM # HatchDSM
+    2532ae02-331e-44bc-bbee-f37d487fa398: Common # Common
+    23364c3c-91a1-47c7-bb2f-000b8fa1b09e: Home # Home
+    bf3b2698-9bb8-437e-b3db-9abec71165e0: About # About
+    ebad7711-e034-403d-a13f-c0e04bbdefa2: HatchDSM # HatchDSM
+    ffb9587a-9831-4d6d-b18d-259f59381415: Home # Home
+plugins:
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.4.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: HatchDSM
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

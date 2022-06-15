@@ -1,0 +1,7 @@
+{% extends "_layout.twig" %}
+
+{% block content %}
+  <h1 class="text-4xl text-black font-display my-4">{{ entry.title }}</h1>
+  <img src={{ entry.portfolioHeroImage}}>
+  <p>{{ entry.portfolioDescription }}</p>
+{% endblock %}

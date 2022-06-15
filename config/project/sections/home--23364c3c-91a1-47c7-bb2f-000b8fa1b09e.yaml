@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  93f4b0cf-62cc-4564-8ab1-d51fa2934e14: # HatchDSM
+    enabledByDefault: true
+    hasUrls: true
+    template: _layout.twig
+    uriFormat: __home__
+type: single

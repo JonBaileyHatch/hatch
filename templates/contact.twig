@@ -1,0 +1,117 @@
+{% extends '_layout' %}
+
+{% block content %}
+<div class="section-2-copy wf-section">
+    <div class="container-1280-flex-right">
+      <div class="flex-child flex-right">
+        <div class="div-block-7-copy">
+          <div class="form-block w-form">
+            <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form" method="get" class="form">
+              <h5 class="subheading">Interested in working with us? </h5>
+              <h1>let’s talk </h1>
+              <div class="form-field-wrapper"><label for="name" class="form-label">Name</label><input type="text" class="input-field w-input" maxlength="256" name="name" data-name="Name" placeholder="" id="name" required=""></div>
+              <div class="form-field-wrapper"><label for="Company-Name" class="form-label">Company Name</label><input type="text" class="input-field w-input" maxlength="256" name="Company-Name" data-name="Company Name" placeholder="" id="Company-Name"></div>
+              <div class="form-field-wrapper"><label for="Email" class="form-label">Email</label><input type="email" class="input-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="" id="Email" required=""></div>
+              <div class="form-field-wrapper"><label for="Phone" class="form-label">Phone</label><input type="tel" class="input-field w-input" maxlength="256" name="Phone" data-name="Phone" placeholder="" id="Phone" required=""></div>
+              <div class="form-field-wrapper"><label for="Give-us-the-scoop-on-how-we-can-help-your-company-grow" class="form-label">Give us the scoop on how we can help your company grow.</label><textarea data-name="Give us the scoop on how we can help your company grow." maxlength="5000" id="Give-us-the-scoop-on-how-we-can-help-your-company-grow" name="Give-us-the-scoop-on-how-we-can-help-your-company-grow" placeholder="" class="input-field w-input"></textarea></div>
+              <div class="link-wrapper">
+                <div class="link-color-square"></div><input type="submit" value="Submit" data-wait="Please wait..." data-w-id="2c243ec5-64f5-2a3d-aa25-77e42e871d67" class="link contact-us-link w-button">
+              </div>
+            </form>
+            <div class="success-message w-form-done">
+              <h4 class="success-heading">Thank you for getting in touch <strong><br></strong></h4>
+              <p class="success-message">We will get back in touch with you soon!<br></p>
+              <h5 class="subheading">Have a great day</h5>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-embed w-script">
+      <style>
+.form-label-- {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 0 5px 0;
+  top: 36px; /* moving label down */
+}
+.form-label-- {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 0 5px 0;
+  top: 36px;
+  z-index: 1; /* placing label behind input */
+}
+.form-label input[type="text"],
+.form-label input[type="password"]
+.form-label input[type="text-area"],
+.form-label input[type="email"],
+.form-label input[type="phone"]
+  z-index: 10;
+}
+.filled {
+  top: 0;
+  font-size: 0.8em;
+}
+</style>
+      <script>
+$(".form-label").on("blur input focus", function() {
+	var $field = $(this).closest(".field");
+	if (this.value) {
+		$field.addClass("filled");
+	} else {
+		$field.removeClass("filled");
+	}
+});
+$(".form-label").on("focus", function() {
+	var $field = $(this).closest(".form-field-wrapper");
+	if (this) {
+		$field.addClass("filled");
+	} else {
+		$field.removeClass("filled");
+	}
+});
+</script>
+    </div>
+  </div>
+  <div class="section-standard wf-section">
+    <div class="container-1280">
+      <div class="w-layout-grid _3-column-grid contact-grid">
+        <div id="w-node-_0d03d657-a0d6-4c54-72ca-5e055e40992c-cc740a38" class="grid-align-top">
+          <div class="small-title">Address</div>
+          <p class="margin-btm-0">218 1/2 5th Street<br>West Des Moines, IA 50265</p>
+        </div>
+        <div id="w-node-_0d03d657-a0d6-4c54-72ca-5e055e409935-cc740a38" class="grid-align-top">
+          <div class="small-title">CONNECT</div>
+          <a href="tel:515.224.1025" class="footer-links contact-dark">515.224.1025</a>
+          <a href="mailto:info@hatchdsm.com" class="footer-links contact-dark">info@hatchdsm.com</a>
+        </div>
+        <div id="w-node-_0d03d657-a0d6-4c54-72ca-5e055e40993d-cc740a38" class="grid-content-wrapper">
+          <div class="social-wrapper">
+            <a href="https://www.facebook.com/hatchdsm/" target="_blank" class="link-block margin-left-0 social-dark w-inline-block">
+              <div class="text-block"></div>
+            </a>
+            <a href="https://www.instagram.com/hatchdsm/" target="_blank" class="link-block w-inline-block">
+              <div class="text-block social-dark"></div>
+            </a>
+            <a href="https://www.youtube.com/channel/UCXtI1sEv9NvcMq1d4kYjeaQ/videos" target="_blank" class="link-block w-inline-block">
+              <div class="text-block social-dark"></div>
+            </a>
+            <a href="https://vimeo.com/user117542082" target="_blank" class="link-block w-inline-block">
+              <div class="text-block social-dark"></div>
+            </a>
+            <a href="https://www.linkedin.com/company/hatchdsm" target="_blank" class="link-block w-inline-block">
+              <div class="text-block social-dark"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="map" class="map">
+        <div class="w-embed w-iframe"><iframe src="https://snazzymaps.com/embed/248656" width="100%" height="500px" style="border:none;"></iframe></div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

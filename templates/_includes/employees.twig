@@ -1,0 +1,12 @@
+<div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center; ">
+{% for employee in craft.entries.section('team') .all() %}
+{% set image = employee.employeeImage .one() %}
+    <div style="max-width:32%; min-width:300px;">
+    <div class="team-img-wrapper">
+    <img src="{{ image.url }}" style=" object-fit:cover; width:450px; height:300px; margin-bottom:20px;">
+    </div>
+    <div class="team-header">{{employee.title}}</div>
+    <div class="team-title">{{employee.jobTitle}}</div>
+    </div>
+{% endfor %}
+</div>
